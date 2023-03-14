@@ -1,11 +1,9 @@
 from django.shortcuts import render, get_object_or_404
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
-from djago.urls import reverse_lazy
+from django.urls import reverse_lazy
 from .models import TodoItem
 
 # Create your views here.
-
-
 class TodoListView(ListView):
     model = TodoItem
 
