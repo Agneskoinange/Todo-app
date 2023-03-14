@@ -1,8 +1,7 @@
 # TODO API
 
 ### Description
-A tod application created with Django . It uses a simple REST API that allows users to create, retrieve, update, and delete items from a
-todo list.
+A todo application created with Django . It uses a simple REST API that allows users to create, retrieve, update, and delete items from a todo list.
 
 Prerequisets
 Django==4.1.7
